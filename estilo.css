@@ -1,0 +1,157 @@
+/*Ayrton Senna*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Russo+One&display=swap');
+body{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #002D62;
+    position: relative;
+    color: #f0f0f0;
+}
+#hero{
+    width: 100vw;
+    overflow-y: hidden;
+}
+#linha_topo{
+    position: fixed;
+    background-color: #002D62;
+    color: #fff;
+    padding: 20px 0;
+    height: 100px;
+    width: 100vw;
+}
+#header {
+    padding: 30px;
+    height: 60px;
+    width: 100%; 
+    color: #fff; 
+    padding: 20px; 
+}
+header h1 {
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    text-align: center;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #002D62;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    background-color: #002D62;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #de8888;
+}
+section {
+    padding: 120px 20px 0px 20px;
+    /* background-color: #fff; */
+    /* border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+h2 {
+    color:#ffffff ;
+}
+p {
+    line-height: 1.6;
+}
+#imagem-grande img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px; 
+    height: auto;
+}
+
+/* Estilo para o parágrafo com a fonte desejada */
+#letra_diferente {
+    font-family: "Freeman", sans-serif;
+    font-size: 110px;
+    
+}
+#frase2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display SC", serif;
+    font-size: 50px;
+}
+/* Estilos para os cards */
+#cards {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+    height: 90vh;
+}
+
+.card {
+    width: 100px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: calc(20% - 20px);
+    margin: 5px;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    color: #002D62;
+}
+.card:hover{
+height: 610px;
+
+}
+
+
+.card img {
+    width: 100%; 
+}
+
+.card h3 {
+    margin-top: 0; 
+}
+
+.card p {
+    margin-bottom: 0; 
+}
+ .linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.coluna70{
+    width: 70%;
+    padding: 20px;
+    height: auto;
+    background-color: #002D62;
+} 
+.coluna30{
+    width: 30%;
+    padding: 20px;
+    height: auto;
+    background-color: #002D62;
+} 
+#img-fundo{
+    background-image: url("img-3.jpeg");
+    background-repeat: no-repeat;
+    margin-left: 70px;
+}
